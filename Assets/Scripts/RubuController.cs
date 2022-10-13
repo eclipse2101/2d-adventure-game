@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,8 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       float horizontal = Input.GetAxis("Horizontal"); //this will call on the input that is under the name horizontal
+       Debug.Log(horizontal)
+
     }
 }
