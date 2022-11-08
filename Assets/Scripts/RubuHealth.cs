@@ -21,7 +21,8 @@ public class RubuHealth : MonoBehaviour
 
     void ChangedHealth(int amount)
     {
-        currenthealth = Mathf.Clamp(currenthealth + amount, 0, Maxhealth)
+        currenthealth = Mathf.Clamp(currenthealth + amount, 0, Maxhealth);
+        Debug.Log(currenthealth + "/" + Maxhealth);
         
     }
 }
