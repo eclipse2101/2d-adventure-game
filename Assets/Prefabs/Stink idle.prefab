@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3963549618400323205}
   - component: {fileID: 3963549618400323206}
   - component: {fileID: 3963549618400323207}
+  - component: {fileID: 2277921660546569174}
   - component: {fileID: 3963549618400323204}
   - component: {fileID: 3313578673590790290}
-  - component: {fileID: 2277921660546569174}
   m_Layer: 0
   m_Name: Stink idle
   m_TagString: Untagged
@@ -98,6 +98,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7105aa4e82e4fd6b8d924baf0e03d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2277921660546569174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3963549618400323200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dfdaf40eff5148b1aa3cd58780f55d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Maxhealth: 3
 --- !u!50 &3963549618400323204
 Rigidbody2D:
   serializedVersion: 4
@@ -116,7 +129,7 @@ Rigidbody2D:
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!61 &3313578673590790290
@@ -145,16 +158,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.0763216, y: 0.109200835}
   m_EdgeRadius: 0
---- !u!114 &2277921660546569174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3963549618400323200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dfdaf40eff5148b1aa3cd58780f55d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Maxhealth: 3
