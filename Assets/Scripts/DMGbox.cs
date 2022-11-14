@@ -18,10 +18,10 @@ public class DMGbox : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        RubuHealth controller = other.GetComponent<RubuHealth >();
+        RubuController controller = other.GetComponent<RubuController >();
         if (controller != null)
         {
-            controller.ChangeHealth(-1);
+            controller.ChangedHealth(-1);
         }
     }
 }
