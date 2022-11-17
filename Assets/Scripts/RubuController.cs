@@ -29,10 +29,10 @@ public class RubuController : MonoBehaviour
     void Update()
     {
        horizontal = Input.GetAxis("Horizontal"); //this will call on the input that is under the name horizontal
-       Debug.Log(horizontal);
+       
 
        vertical = Input.GetAxis("Vertical"); 
-       Debug.Log(vertical);
+       
 
        if (isInvincible)
         {
