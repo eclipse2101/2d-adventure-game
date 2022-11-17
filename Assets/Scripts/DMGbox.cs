@@ -25,4 +25,3 @@ public class DMGbox : MonoBehaviour
         }
     }
 }
-// gotta fix the bug for controller.ChangeHealth. make sure to ask mr.shams bout it
