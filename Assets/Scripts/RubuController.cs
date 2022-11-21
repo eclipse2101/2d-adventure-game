@@ -44,10 +44,10 @@ public class RubuController : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        Vector2 position = transform.position;
+        Vector2 position = rigidbody2d.position;
        position.x = position.x + 4.0f * horizontal * Time.deltaTime; // this function will change the speed of how fast your character moves
        position.y = position.y + 4.0f * vertical * Time.deltaTime;
-       transform.position = position;
+       rigidbody2d.MovePosition(position);
     }
 
     

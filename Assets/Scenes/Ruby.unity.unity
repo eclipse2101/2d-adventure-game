@@ -184,6 +184,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29ba0dddc29d34997850e928d307b524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 2
+  vertical: 1
+  changeTime: 3
 --- !u!1001 &336417943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26858,7 +26861,8 @@ PrefabInstance:
       propertyPath: m_SpriteSortPoint
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2277921660546569174, guid: a8ff951127d3042ea994025167235348, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a8ff951127d3042ea994025167235348, type: 3}
 --- !u!1001 &5025588184504734009
 PrefabInstance:
@@ -26867,6 +26871,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1398850216412422447, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6907416928260975128, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -26913,7 +26921,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8954904875539284016, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9201141668706281871, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
       propertyPath: m_Name
