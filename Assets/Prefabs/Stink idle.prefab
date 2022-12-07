@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3963549618400323205}
   - component: {fileID: 3963549618400323206}
   - component: {fileID: 3963549618400323207}
-  - component: {fileID: 2277921660546569174}
   - component: {fileID: 3963549618400323204}
   - component: {fileID: 3313578673590790290}
+  - component: {fileID: 3963549617246380797}
   m_Layer: 0
   m_Name: Stink idle
   m_TagString: Untagged
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -6598357704718069643, guid: fecb844d0e55f49868f679d3e24c7cd3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -98,19 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7105aa4e82e4fd6b8d924baf0e03d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2277921660546569174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3963549618400323200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dfdaf40eff5148b1aa3cd58780f55d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Maxhealth: 3
+  maxHealth: 3
+  timeInvincible: 2
 --- !u!50 &3963549618400323204
 Rigidbody2D:
   serializedVersion: 4
@@ -158,3 +147,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.0763216, y: 0.109200835}
   m_EdgeRadius: 0
+--- !u!95 &3963549617246380797
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3963549618400323200}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6b2c330b70f37463c9eec2efcda04a23, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

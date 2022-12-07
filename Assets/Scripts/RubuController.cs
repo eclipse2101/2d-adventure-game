@@ -10,7 +10,7 @@ public class RubuController : MonoBehaviour
     
     public int health { get { return currentHealth; }}
 
-    Animator AnimationRunner;
+    Animator animationRunner;
     Vector2 lookdirection = new Vector2(1, 0); 
     
     bool isInvincible;
@@ -25,7 +25,7 @@ public class RubuController : MonoBehaviour
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth; 
-        AnimationRunner = GetComponent<Animator>();
+        animationRunner = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -43,9 +43,9 @@ public class RubuController : MonoBehaviour
         lookdirection.Normalize(); 
        }
        
-       AnimationRunner.SetFloat("Look X", lookdirection.x);
-       AnimationRunner.SetFloat("Look Y", lookdirection.y);
-       AnimationRunner.SetFloat("Speed", move.magnitude);
+       animationRunner.SetFloat("x stink", lookdirection.x);
+       animationRunner.SetFloat("y stink", lookdirection.y);
+       animationRunner.SetFloat("Speed", move.magnitude);
 
        if (isInvincible) // a timer for if ruby gets hit she will be unhitable for awhile 
         {
@@ -58,8 +58,8 @@ public class RubuController : MonoBehaviour
     private void FixedUpdate()
     {
         Vector2 position = rigidbody2d.position;
-       position.x = position.x + 4.0f * horizontal * Time.deltaTime; // this function will change the speed of how fast your character moves
-       position.y = position.y + 4.0f * vertical * Time.deltaTime;
+       position.x = position.x + 3.0f * horizontal * Time.deltaTime; // this function will change the speed of how fast your character moves
+       position.y = position.y + 3.0f * vertical * Time.deltaTime;
        rigidbody2d.MovePosition(position);
     }
 
