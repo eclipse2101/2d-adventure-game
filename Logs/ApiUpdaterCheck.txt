@@ -178,3 +178,43 @@ C# parse time         : 165ms
 candidates check time : 26ms
 console write time    : 0ms
 
+[api-updater (non-obsolete-error-filter)] 12/6/2022 6:26:52 PM : Starting /Users/rutherfordgame1/Downloads/2020.3.27f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 403.482ms
+moved types parse time: 130ms
+candidates parse time : 4ms
+C# parse time         : 432ms
+candidates check time : 167ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 12/6/2022 6:28:28 PM : Starting /Users/rutherfordgame1/Downloads/2020.3.27f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 126.106ms
+moved types parse time: 138ms
+candidates parse time : 5ms
+C# parse time         : 437ms
+candidates check time : 186ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 12/6/2022 6:33:11 PM : Starting /Users/rutherfordgame1/Downloads/2020.3.27f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 133.421ms
+moved types parse time: 127ms
+candidates parse time : 5ms
+C# parse time         : 437ms
+candidates check time : 182ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 12/6/2022 6:33:48 PM : Starting /Users/rutherfordgame1/Downloads/2020.3.27f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 123.802ms
+moved types parse time: 127ms
+candidates parse time : 5ms
+C# parse time         : 429ms
+candidates check time : 168ms
+console write time    : 1ms
+
