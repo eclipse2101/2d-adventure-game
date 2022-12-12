@@ -22,50 +22,50 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60863
+60982
 Successfully changed project path to: /Users/game1/2d adventure game
 /Users/game1/2d adventure game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 36.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 37.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.42f1 (7ade1201f527)
 [Subsystems] Discovering subsystems at path /Users/game1/Desktop/2020.3.42f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/game1/2d adventure game/Assets
 GfxDevice: creating device client; threaded=0
-2022-12-12 08:26:58.695 Unity[74817:9586341] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
-2022-12-12 08:26:58.695 Unity[74817:9586341] Metal devices available: 1
-2022-12-12 08:26:58.695 Unity[74817:9586341] 0: AMD Radeon Pro 5500 XT (high power)
-2022-12-12 08:26:58.695 Unity[74817:9586341] Using device AMD Radeon Pro 5500 XT (high power)
+2022-12-12 08:50:35.852 Unity[74903:9596575] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
+2022-12-12 08:50:35.852 Unity[74903:9596575] Metal devices available: 1
+2022-12-12 08:50:35.852 Unity[74903:9596575] 0: AMD Radeon Pro 5500 XT (high power)
+2022-12-12 08:50:35.852 Unity[74903:9596575] Using device AMD Radeon Pro 5500 XT (high power)
 Initializing Metal device caps: AMD Radeon Pro 5500 XT
 Initialize mono
 Mono path[0] = '/Users/game1/Desktop/2020.3.42f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/game1/Desktop/2020.3.42f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Users/game1/Desktop/2020.3.42f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56817
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56903
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/game1/Desktop/2020.3.42f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000434 seconds.
+Registered in 0.000425 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 35.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 35.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.530 seconds
+- Completed reload, in  0.529 seconds
 Domain Reload Profiling:
-	ReloadAssembly (530ms)
-		BeginReloadAssembly (38ms)
+	ReloadAssembly (529ms)
+		BeginReloadAssembly (36ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (427ms)
-			LoadAssemblies (37ms)
+			LoadAssemblies (36ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (158ms)
+			SetupTypeCache (156ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (163ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (164ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
@@ -79,43 +79,43 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001154 seconds.
+Registered in 0.001124 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 34.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 34.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.015 seconds
+- Completed reload, in  1.006 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1016ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (1007ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (833ms)
-			LoadAssemblies (95ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (821ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (298ms)
+			SetupTypeCache (305ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (292ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (298ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (34ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (178ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.002331 seconds.
+Validating Project structure ... 0.002298 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.002084 seconds.
+Upgrading shader files ...0.002376 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -129,14 +129,14 @@ Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 212.7 MB.
 System memory in use after: 211.8 MB.
 
 Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 2660.
-Total: 2.738452 ms (FindLiveObjects: 0.146857 ms CreateObjectMapping: 0.075255 ms MarkObjects: 2.083187 ms  DeleteObjects: 0.432685 ms)
+Total: 2.750880 ms (FindLiveObjects: 0.145956 ms CreateObjectMapping: 0.075906 ms MarkObjects: 2.090707 ms  DeleteObjects: 0.437923 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -150,95 +150,53 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/AnimationClips
-  artifactKey: Guid(2dceb00d54b369d4889d2daf5a884a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimationClips using Guid(2dceb00d54b369d4889d2daf5a884a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f31c09148e766f780e1d71e3f9b5b4') in 0.006345 seconds 
+  path: Assets/AnimationClips/funni bot animation/funni bot anim.controller
+  artifactKey: Guid(0d59204f552be433aaf7b621708bbb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationClips/funni bot animation/funni bot anim.controller using Guid(0d59204f552be433aaf7b621708bbb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d410fd888791c65a411713adb4090ef') in 0.570792 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.855156 seconds.
-  path: Assets/AnimationClips/Player
-  artifactKey: Guid(f3cc884ead1a9b844804335eddacc621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimationClips/Player using Guid(f3cc884ead1a9b844804335eddacc621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a955fd25213020ddc586c92ae09676f9') in 0.000968 seconds 
+  Time since last request: 0.000189 seconds.
+  path: Assets/AnimationClips/funni bot animation/funni bot down.anim
+  artifactKey: Guid(d93381609c3f048dab014f44491d0001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationClips/funni bot animation/funni bot down.anim using Guid(d93381609c3f048dab014f44491d0001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b3d3b90cbb884264c7d90ae35112dc') in 0.224927 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.973921 seconds.
-  path: Assets/AnimationClips/Player/RubyHitDown.anim
-  artifactKey: Guid(07f2b32839e2f98428c49d63421c8693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimationClips/Player/RubyHitDown.anim using Guid(07f2b32839e2f98428c49d63421c8693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4ae95246e6c1a904478d4e7d67fbb4') in 0.828885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.359568 seconds.
-  path: Assets/AnimationClips/Player/RubyHitUp.anim
-  artifactKey: Guid(7b8f71adb6a886d4e904c3583e981eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimationClips/Player/RubyHitUp.anim using Guid(7b8f71adb6a886d4e904c3583e981eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff3e6a77411323c87fd6a63f2936f63') in 0.003455 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.571646 seconds.
-  path: Assets/AnimationClips/Player/RubyHitLeft.anim
-  artifactKey: Guid(c1b9a114c780f974284fddf886871a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimationClips/Player/RubyHitLeft.anim using Guid(c1b9a114c780f974284fddf886871a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b514a791bdeb76d3830a7d70ba6a77') in 0.003063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.377688 seconds.
-  path: Assets/AnimationClips/Player/RubyHitRight.anim
-  artifactKey: Guid(58f46138981fa4944bcf388ef7cd9980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimationClips/Player/RubyHitRight.anim using Guid(58f46138981fa4944bcf388ef7cd9980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46a4e487d8da5168a943f85a947c8f2') in 0.003410 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.599588 seconds.
-  path: Assets/AnimationClips/Player/RubyIdleDown.anim
-  artifactKey: Guid(214bcd861ce37b3409eea1b7e32210b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimationClips/Player/RubyIdleDown.anim using Guid(214bcd861ce37b3409eea1b7e32210b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f989a1a6b75b9f85501fe7e3ea90dd') in 0.003805 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.960577 seconds.
-  path: Assets/AnimationClips/stink animations/Stink forward walk.anim
-  artifactKey: Guid(28f7dded540a14078b3f97cc48e04dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimationClips/stink animations/Stink forward walk.anim using Guid(28f7dded540a14078b3f97cc48e04dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b75556e2b5ff0e48ba94c17686fa3d') in 0.003253 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.917129 seconds.
-  path: Assets/AnimationClips/stink animations/Stink right walk.anim
-  artifactKey: Guid(ce9b2e190814f4a8eac2f1844f834388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimationClips/stink animations/Stink right walk.anim using Guid(ce9b2e190814f4a8eac2f1844f834388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438a7fca64e0f701f4e9ce24b4a31b2c') in 0.003914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.490867 seconds.
-  path: Assets/AnimationClips/stink animations/stink up walk.anim
-  artifactKey: Guid(e21a3d4dba15540d89ac5a55fcceb26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimationClips/stink animations/stink up walk.anim using Guid(e21a3d4dba15540d89ac5a55fcceb26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0dcb733c49e572c937d95e146f1d126') in 0.003217 seconds 
+  Time since last request: 213.125076 seconds.
+  path: Assets/AnimationClips/stink animations/my controller.controller
+  artifactKey: Guid(6b2c330b70f37463c9eec2efcda04a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationClips/stink animations/my controller.controller using Guid(6b2c330b70f37463c9eec2efcda04a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e74f408561ff0d2a7072442378a8b0e') in 0.002626 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001330 seconds.
+Registered in 0.001111 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.969 seconds
+- Completed reload, in  0.937 seconds
 Domain Reload Profiling:
-	ReloadAssembly (969ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (937ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (796ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (773ms)
 			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (295ms)
+			SetupTypeCache (286ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (292ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (282ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (172ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -247,11 +205,11 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2181 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 217.4 MB.
-System memory in use after: 217.4 MB.
+System memory in use before: 221.6 MB.
+System memory in use after: 221.6 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2665.
-Total: 2.308339 ms (FindLiveObjects: 0.127369 ms CreateObjectMapping: 0.065030 ms MarkObjects: 2.047560 ms  DeleteObjects: 0.067951 ms)
+Total: 2.287718 ms (FindLiveObjects: 0.124814 ms CreateObjectMapping: 0.066151 ms MarkObjects: 2.023430 ms  DeleteObjects: 0.072858 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -265,70 +223,26 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 822.082224 seconds.
-  path: Assets/AnimationClips/funni bot animation/funni bot right.anim.anim
-  artifactKey: Guid(7f73d583aead543499c6221c39ef085d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimationClips/funni bot animation/funni bot right.anim.anim using Guid(7f73d583aead543499c6221c39ef085d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90beb7c642ba6ac6a86b7be5011f000e') in 0.013875 seconds 
+  Time since last request: 398.924156 seconds.
+  path: Assets/AnimationClips/stink animations/stink throw animation.anim.anim
+  artifactKey: Guid(1cd07dcc190144e40a179987ddd50176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationClips/stink animations/stink throw animation.anim.anim using Guid(1cd07dcc190144e40a179987ddd50176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bc87a8036c2615845af0b039fd39df') in 0.012814 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 427.243710 seconds.
-  path: Assets/AnimationClips/stink animations/my controller.controller
-  artifactKey: Guid(6b2c330b70f37463c9eec2efcda04a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimationClips/stink animations/my controller.controller using Guid(6b2c330b70f37463c9eec2efcda04a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9b87627fe6bf291ab608900230bc1f') in 0.233720 seconds 
+  Time since last request: 23.156633 seconds.
+  path: Assets/AnimationClips/stink animations/stink  L throw.anim
+  artifactKey: Guid(1cd07dcc190144e40a179987ddd50176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationClips/stink animations/stink  L throw.anim using Guid(1cd07dcc190144e40a179987ddd50176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21f6fccd22d271d460ca03e251bb905') in 0.002961 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001385 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.923 seconds
-Domain Reload Profiling:
-	ReloadAssembly (923ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (760ms)
-			LoadAssemblies (65ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (281ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (278ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (165ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2181 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 222.3 MB.
-System memory in use after: 222.3 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2668.
-Total: 2.655037 ms (FindLiveObjects: 0.156934 ms CreateObjectMapping: 0.084094 ms MarkObjects: 2.295771 ms  DeleteObjects: 0.117678 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 71.287012 seconds.
+  path: Assets/AnimationClips/stink animations/Stink R throw.anim.anim
+  artifactKey: Guid(604e37056b76a4dffbd6e952ed48da64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationClips/stink animations/Stink R throw.anim.anim using Guid(604e37056b76a4dffbd6e952ed48da64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a3a387d95362520806d7ba74596fc8') in 0.003863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.393016 seconds.
+  path: Assets/AnimationClips/stink animations/Stink R throw.anim
+  artifactKey: Guid(604e37056b76a4dffbd6e952ed48da64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationClips/stink animations/Stink R throw.anim using Guid(604e37056b76a4dffbd6e952ed48da64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4f6403dc744fbcddb7094e1fdcf0f1') in 0.002947 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -33,11 +33,12 @@ public class RubuController : MonoBehaviour
     {
        horizontal = Input.GetAxis("Horizontal"); //this will call on the input that is under the name horizontal
        
+       
 
        vertical = Input.GetAxis("Vertical"); 
 
        Vector2 move = new Vector2(horizontal, vertical); // this is to start the animation code
-       if(!Mathf.Approximately(move.x, move.y) || !Mathf.Approximately(move.y, 0.0f)) // || also means or in coding
+       if(!Mathf.Approximately(move.x, 0.0f) || !Mathf.Approximately(move.y, 0.0f)) // || also means or in coding
        {
         lookdirection.Set(move.x, move.y);
         lookdirection.Normalize(); 
