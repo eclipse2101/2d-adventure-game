@@ -26686,6 +26686,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7571201956995450504, guid: 22470be64e86d419694d49f76ce65d57, type: 3}
+      propertyPath: m_Size.y
+      value: 0.91804874
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571201956995450504, guid: 22470be64e86d419694d49f76ce65d57, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.03097564
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22470be64e86d419694d49f76ce65d57, type: 3}
 --- !u!1001 &3476941479931779225
@@ -26789,6 +26797,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stink idle
       objectReference: {fileID: 0}
+    - target: {fileID: 3963549618400323200, guid: a8ff951127d3042ea994025167235348, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3963549618400323205, guid: a8ff951127d3042ea994025167235348, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -26833,6 +26845,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3963549618400323207, guid: a8ff951127d3042ea994025167235348, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 3270575346887364354, guid: 1a8b2e930ed0a4429b495691dd28d214, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8ff951127d3042ea994025167235348, type: 3}
 --- !u!1001 &5025588184504734009
@@ -26842,6 +26858,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 210362414, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
+      propertyPath: vertical
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6907416928260975128, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -26900,15 +26920,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8954904875539284016, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8954904875539284016, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 2.56
+      value: 1.7069987
       objectReference: {fileID: 0}
     - target: {fileID: 8954904875539284016, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.56
+      value: 1.7053334
       objectReference: {fileID: 0}
     - target: {fileID: 9201141668706281871, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
       propertyPath: m_Name

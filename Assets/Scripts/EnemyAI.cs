@@ -11,7 +11,9 @@ public class EnemyAI : MonoBehaviour
     Rigidbody2D rigidbody2D;
     float timer;
     int direction = 1;
-    Animator AnimationRunner; 
+    Animator AnimationRunner;
+
+    bool broken = true;  
     
     // Start is called before the first frame update
     void Start()
@@ -31,15 +33,26 @@ public class EnemyAI : MonoBehaviour
             direction = -direction;
             timer = changeTime; 
         }
+
+        if (!broken) // putting ! next to a bool will mean flase to the program
+        {
+            return; 
+        }
     }
 
     void FixedUpdate() // this is for the robot to move 
     {
+        if (!broken) 
+        {
+            return; 
+        }
+
         Vector2 position = rigidbody2D.position;
         
         if (vertical)
         {
             position.y = position.y + Time.deltaTime * speed * direction;;
+           
             AnimationRunner.SetFloat("x funni", 0); // this will run the left and right animations 
             AnimationRunner.SetFloat("y funni", direction); // same thing but for up and down 
         }
@@ -62,7 +75,12 @@ public class EnemyAI : MonoBehaviour
         player.ChangedHealth(-1);
      }
     }
-
+    
+    public void Fix()
+    {
+         broken = flase
+         rigidbody2D.Simulated = flase; 
+    }
     
 }
 

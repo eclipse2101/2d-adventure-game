@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class RubuController : MonoBehaviour
 {
+    // yes i did made my link sprite and called it stink and gived the script name rubu controller. Cry about it
     public int maxHealth = 3;
     int currentHealth; 
     public float timeInvincible = 2.0f;
     
-    public int health { get { return currentHealth; }}
+    public int health { get { return currentHealth; }} // this is to show stinks current health
 
     Animator animationRunner;
     Vector2 lookdirection = new Vector2(1, 0); 
+
+    public GameObject projectilePrefab; 
     
     bool isInvincible;
     float invincibleTimer;
@@ -31,6 +34,7 @@ public class RubuController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       // ok so all of this pretty much gets the functions to make stink move and get his animations
        horizontal = Input.GetAxis("Horizontal"); //this will call on the input that is under the name horizontal
        
        
@@ -55,9 +59,14 @@ public class RubuController : MonoBehaviour
                 isInvincible = false;
         }
 
+        if(Input.GetKeyDown(KeyCode.K))
+        {
+            Launch(); 
+        }
     }
     private void FixedUpdate()
     {
+        // this part makes stink actually move 
         Vector2 position = rigidbody2d.position;
        position.x = position.x + 3.0f * horizontal * Time.deltaTime; // this function will change the speed of how fast your character moves
        position.y = position.y + 3.0f * vertical * Time.deltaTime;
@@ -79,5 +88,15 @@ public class RubuController : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth); // this is to show how many health the player has
         Debug.Log(currentHealth + "/" + maxHealth); // this will show how much health you have in the debug log
         
+    }
+
+    // this is for the cog projectile
+    void Launch()
+    {
+     GameObject CogProjectile = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.up * 0.5f, Quaternion.identity);
+
+     CogProjectile CogAmmo = CogProjectile.GetComponent<CogProjectile>();
+     CogAmmo.Launch(lookdirection, 300); 
+     animationRunner.SetTrigger("Launch"); 
     }
 }
