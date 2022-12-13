@@ -24,7 +24,7 @@ public class CogProjectile : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        EnemyAI e = other.Collider.GetComponent<EnemyAI>();
+        EnemyAI e = other.collider.GetComponent<EnemyAI>();
         if (e != null)
         {
             e.Fix(); 

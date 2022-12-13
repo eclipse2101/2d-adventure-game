@@ -13,7 +13,7 @@ public class EnemyAI : MonoBehaviour
     int direction = 1;
     Animator AnimationRunner;
 
-    bool broken = true;  
+    public bool broken = true;  
     
     // Start is called before the first frame update
     void Start()
@@ -78,8 +78,8 @@ public class EnemyAI : MonoBehaviour
     
     public void Fix()
     {
-         broken = flase
-         rigidbody2D.Simulated = flase; 
+         broken = false;
+         rigidbody2D.simulated = false; 
     }
     
 }
