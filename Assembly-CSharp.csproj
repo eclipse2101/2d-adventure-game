@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets/Scripts/RubuController.cs" />
      <Compile Include="Assets/Scripts/EnemyAI.cs" />
+     <Compile Include="Assets/Scripts/CogProjectile.cs" />
      <Compile Include="Assets/Scripts/RubuHealth.cs" />
      <Compile Include="Assets/Scripts/DMGbox.cs" />
      <None Include="Assets/2DBeginner_Third-PartyNotice.txt" />
@@ -673,6 +674,12 @@
     </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
         <HintPath>/Users/game1/2d adventure game/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>/Users/game1/2d adventure game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>/Users/game1/2d adventure game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Editor">
         <HintPath>/Users/game1/2d adventure game/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Editor.dll</HintPath>
