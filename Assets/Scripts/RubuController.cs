@@ -34,6 +34,15 @@ public class RubuController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
+       // death script
+        if (currentHealth == 0)
+        {
+            Destroy(gameObject);
+            Debug.Log("You have died. Please restart the game and get good"); 
+        }  
+       
+       
        // ok so all of this pretty much gets the functions to make stink move and get his animations
        horizontal = Input.GetAxis("Horizontal"); //this will call on the input that is under the name horizontal
        
@@ -87,6 +96,7 @@ public class RubuController : MonoBehaviour
         
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth); // this is to show how many health the player has
         Debug.Log(currentHealth + "/" + maxHealth); // this will show how much health you have in the debug log
+        
         
     }
 

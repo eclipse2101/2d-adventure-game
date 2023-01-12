@@ -39,7 +39,6 @@
      <Compile Include="Assets/Scripts/RubuController.cs" />
      <Compile Include="Assets/Scripts/EnemyAI.cs" />
      <Compile Include="Assets/Scripts/CogProjectile.cs" />
-     <Compile Include="Assets/Scripts/RubuHealth.cs" />
      <Compile Include="Assets/Scripts/DMGbox.cs" />
      <None Include="Assets/2DBeginner_Third-PartyNotice.txt" />
     <Reference Include="UnityEngine">
