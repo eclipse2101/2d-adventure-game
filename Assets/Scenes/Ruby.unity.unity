@@ -27145,6 +27145,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!198 &2092734134 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4254440021458887872, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
+  m_PrefabInstance: {fileID: 5025588184504734009}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2433476152966075593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27372,6 +27377,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 210362414, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
+      propertyPath: smokeSmokeNoMi
+      value: 
+      objectReference: {fileID: 2092734134}
     - target: {fileID: 6907416928260975128, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -27415,6 +27424,26 @@ PrefabInstance:
     - target: {fileID: 6907416928260975128, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954904875539284016, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
+      propertyPath: m_Size.y
+      value: 1.6321983
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954904875539284016, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.7664139
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954904875539284016, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954904875539284016, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954904875539284016, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.56
       objectReference: {fileID: 0}
     - target: {fileID: 9201141668706281871, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
       propertyPath: m_Name

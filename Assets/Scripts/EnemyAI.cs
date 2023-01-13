@@ -7,6 +7,7 @@ public class EnemyAI : MonoBehaviour
     public float speed;
     public bool vertical;
     public float changeTime = 3.0f;
+    public ParticleSystem smokeSmokeNoMi;
 
     Rigidbody2D rigidbody2D;
     float timer;
@@ -79,7 +80,8 @@ public class EnemyAI : MonoBehaviour
     public void Fix()
     {
          broken = false;
-         rigidbody2D.simulated = false; 
+         rigidbody2D.simulated = false;
+         smokeSmokeNoMi.Stop(); 
     }
     
 }
