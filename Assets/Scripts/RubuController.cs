@@ -72,7 +72,19 @@ public class RubuController : MonoBehaviour
         {
             Launch(); 
         }
+
+        // dialog making /////////////////////
+        if (Input.GetKeyDown(KeyCode.E))
+      {
+        RaycastHit2D hit = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f, lookdirection, 1.5f, LayerMask.GetMask("Npc/ lore tellers"));
+        if (hit.collider != null)
+        {
+        Debug.Log("Raycast has hit the object " + hit.collider.gameObject);
+        }
+      }
     }
+
+
     private void FixedUpdate()
     {
         // this part makes stink actually move 
@@ -96,7 +108,7 @@ public class RubuController : MonoBehaviour
         
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth); // this is to show how many health the player has
         Debug.Log(currentHealth + "/" + maxHealth); // this will show how much health you have in the debug log
-        
+        UiHealth.instance.SetValue(currentHealth);
         
     }
 
@@ -109,4 +121,6 @@ public class RubuController : MonoBehaviour
      CogAmmo.Launch(lookdirection, 300); 
      animationRunner.SetTrigger("Launch"); 
     }
+
+    
 }
