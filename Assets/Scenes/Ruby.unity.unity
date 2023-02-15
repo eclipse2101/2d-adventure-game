@@ -705,6 +705,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &650805597 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8443781450591338961, guid: d89652520f24144a7972f12e47fb39d5, type: 3}
+  m_PrefabInstance: {fileID: 7904525946962777705}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &818466613
 GameObject:
   m_ObjectHideFlags: 0
@@ -26964,6 +26969,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1147362810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147362808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb252b9c550b4cdbae7c4b62aa14ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayTime: 4
+  DialogBox: {fileID: 650805597}
 --- !u!61 &1147362812
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28266,6 +28285,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2285424169214163453, guid: d89652520f24144a7972f12e47fb39d5, type: 3}
+      propertyPath: m_text
+      value: im 100 meters away from your location. Start running
+      objectReference: {fileID: 0}
+    - target: {fileID: 2978359063126722312, guid: d89652520f24144a7972f12e47fb39d5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 2.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2978359063126722312, guid: d89652520f24144a7972f12e47fb39d5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.52
+      objectReference: {fileID: 0}
     - target: {fileID: 5548813461065472931, guid: d89652520f24144a7972f12e47fb39d5, type: 3}
       propertyPath: m_RootOrder
       value: 19

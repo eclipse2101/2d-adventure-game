@@ -79,7 +79,11 @@ public class RubuController : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f, lookdirection, 1.5f, LayerMask.GetMask("Npc/ lore tellers"));
         if (hit.collider != null)
         {
-        Debug.Log("Raycast has hit the object " + hit.collider.gameObject);
+             QuestnLoreNpc character = hit.collider.GetComponent<QuestnLoreNpc>();
+                if (character != null)
+                {
+                    character.DisplayDialog();
+                }
         }
       }
     }
