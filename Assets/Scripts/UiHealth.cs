@@ -28,7 +28,7 @@ public class UiHealth : MonoBehaviour
         if(value < 3)
         {
             Debug.Log("Ouch");
-            //lastHeart.enabled = false;
+            lastHeart.enabled = false;
         }
     }
 }

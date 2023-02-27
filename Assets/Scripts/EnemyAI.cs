@@ -9,6 +9,8 @@ public class EnemyAI : MonoBehaviour
     public float changeTime = 3.0f;
     public ParticleSystem smokeSmokeNoMi;
 
+     AudioSource audioSource;
+
     Rigidbody2D rigidbody2D;
     float timer;
     int direction = 1;

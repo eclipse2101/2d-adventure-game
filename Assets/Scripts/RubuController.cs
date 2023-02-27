@@ -23,6 +23,8 @@ public class RubuController : MonoBehaviour
     float horizontal;
     float vertical;
 
+    AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -124,6 +126,11 @@ public class RubuController : MonoBehaviour
      CogProjectile CogAmmo = CogProjectile.GetComponent<CogProjectile>();
      CogAmmo.Launch(lookdirection, 300); 
      animationRunner.SetTrigger("Launch"); 
+    }
+
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 
     
