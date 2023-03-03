@@ -10,8 +10,10 @@ public class UiHealth : MonoBehaviour
     public Image lastHeart;
     public Image middleHeart;
     public Image firstHeart;
-    
+    public bool heartUpg;
+    // RubuController stinkHealthScript = GetComponent<RubuController>();
 
+    
     void Awake()
     {
         instance = this;
