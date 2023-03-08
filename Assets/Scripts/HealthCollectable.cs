@@ -14,8 +14,10 @@ public class HealthCollectable : MonoBehaviour
         {
             if (controller.health < controller.maxHealth)
             {
-                controller.ChangedHealth(1);
+                
                 Destroy(gameObject);
+                controller.ChangedHealth(1);
+                controller.PlaySound(collectedClip);
                 UiHealth uiScript = GetComponent<UiHealth>();
                 if (uiScript != null)
                 {
@@ -23,7 +25,7 @@ public class HealthCollectable : MonoBehaviour
                     Debug.Log(" ez health");
                 }
             
-                controller.PlaySound(collectedClip);
+                
             }
         }
 
