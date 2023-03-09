@@ -23,15 +23,13 @@ public class UiHealth : MonoBehaviour
     void Start()
     {
       RubuController stinkHealthScript = GetComponent<RubuController>();
+
       originalSize = healthBar.rectTransform.rect.width;
 
     }
 
     public void SetValue(float value)
-    {
-        Debug.Log(value);				      
-       
-        healthBar.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, originalSize * .8f);
-        
+    {			        
+        healthBar.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, originalSize * .67f);
     }
 }

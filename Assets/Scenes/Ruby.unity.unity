@@ -724,7 +724,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.5156702, y: 1.1369759, z: -10}
+  m_LocalPosition: {x: 0.09, y: 1.14, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1277964172}
@@ -27620,7 +27620,6 @@ RectTransform:
   m_Children:
   - {fileID: 1273724632}
   - {fileID: 938082722}
-  - {fileID: 1640723763}
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -27902,7 +27901,7 @@ GameObject:
   - component: {fileID: 1640723764}
   m_Layer: 5
   m_Name: Mask
-  m_TagString: Untagged
+  m_TagString: HealthMask
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27921,13 +27920,13 @@ RectTransform:
   - {fileID: 1701175}
   - {fileID: 1984959772}
   - {fileID: 62341431}
-  m_Father: {fileID: 1290980102}
-  m_RootOrder: 2
+  m_Father: {fileID: 938082722}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -5.011902, y: -42.92206}
-  m_SizeDelta: {x: 100.400024, y: 27.043945}
+  m_AnchoredPosition: {x: -3.6218872, y: -13.522095}
+  m_SizeDelta: {x: 90, y: 27.0439}
   m_Pivot: {x: -0.04603481, y: 0.5}
 --- !u!114 &1640723764
 MonoBehaviour:
