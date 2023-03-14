@@ -19,11 +19,7 @@ public class HealthCollectable : MonoBehaviour
                 controller.ChangedHealth(1);
                 controller.PlaySound(collectedClip);
                 UiHealth uiScript = GetComponent<UiHealth>();
-                if (uiScript != null)
-                {
-                    uiScript.heartUpg = true;
-                    Debug.Log(" ez health");
-                }
+                
             
                 
             }

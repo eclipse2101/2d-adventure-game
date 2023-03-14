@@ -84,6 +84,7 @@ public class EnemyAI : MonoBehaviour
          broken = false;
          rigidbody2D.simulated = false;
          smokeSmokeNoMi.Stop(); 
+        // AudioSource.Stop();
     }
     
 }
