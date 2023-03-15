@@ -116,8 +116,8 @@ public class RubuController : MonoBehaviour
         }
         
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth); // this is to show how many health the player has
-        Debug.Log(currentHealth + "/" + maxHealth); // this will show how much health you have in the debug log
-//        UiHealth.instance.SetValue(currentHealth);
+       // Debug.Log(currentHealth + "/" + maxHealth); // this will show how much health you have in the debug log
+        UiHealth.instance.SetValue(currentHealth/ (float)maxHealth);
         
     }
 

@@ -7,10 +7,10 @@ public class UiHealth : MonoBehaviour
 {
     public static UiHealth instance { get; private set; }
     
-    public bool heartUpg;
-    public Image healthBar; 
-    public float originalSize;
-    public float healthBarSize;
+   
+    public Image mask; 
+    float originalSize;
+    
 
     
 
@@ -22,14 +22,12 @@ public class UiHealth : MonoBehaviour
 
     void Start()
     {
-      RubuController stinkHealthScript = GetComponent<RubuController>();
-
-      originalSize = healthBar.rectTransform.rect.width;
+      originalSize = mask.rectTransform.rect.width;
 
     }
 
     public void SetValue(float value)
     {			        
-        healthBar.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, originalSize * .67f);
+        mask.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, originalSize * value);
     }
 }
