@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RubuController : MonoBehaviour
 {
@@ -134,6 +135,16 @@ public class RubuController : MonoBehaviour
     public void PlaySound(AudioClip clip)
     {
         audioSource.PlayOneShot(clip);
+    }
+
+    public void LevelChanger()
+    {
+        SceneManager.LoadScene("File Tower"); 
+    }
+
+    public void Nope()
+    {
+        return;
     }
 
     
