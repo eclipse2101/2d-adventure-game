@@ -919,8 +919,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.9311626, y: 0.48690104, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1277964172}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -27298,6 +27297,23 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1147362810, guid: d89652520f24144a7972f12e47fb39d5, type: 3}
+      propertyPath: displayTime
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2285424169214163453, guid: d89652520f24144a7972f12e47fb39d5, type: 3}
+      propertyPath: m_text
+      value: Please help us!  Ever since a tower within the east side of our world
+        apprear everything keeps dispearing. Please help us stop it!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2285424169214163453, guid: d89652520f24144a7972f12e47fb39d5, type: 3}
+      propertyPath: m_fontSize
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2285424169214163453, guid: d89652520f24144a7972f12e47fb39d5, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 5548813461065472931, guid: d89652520f24144a7972f12e47fb39d5, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -27930,11 +27946,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1277964171}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.06, y: -1.35, z: 10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -42.41855, y: 12.999491, z: 0}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children: []
-  m_Father: {fileID: 519420032}
-  m_RootOrder: 0
+  m_Father: {fileID: 1868317284}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1277964173
 MonoBehaviour:
@@ -28768,6 +28784,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
+--- !u!4 &1868317284 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6907416928260975128, guid: 15aebca0bce10496a9c608b6b572760d, type: 3}
+  m_PrefabInstance: {fileID: 1868317283}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1898300685
 PrefabInstance:
   m_ObjectHideFlags: 0
