@@ -18,6 +18,8 @@ public class QuestnLoreNpc : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+        // once the timer hits zero the dialog will disappear
         if (timerDisplay >= 0)
         {
         timerDisplay -= Time.deltaTime;
@@ -28,6 +30,8 @@ public class QuestnLoreNpc : MonoBehaviour
         }
     }
 
+    
+    // this is to display the dialog
     public void DisplayDialog()
     {
         timerDisplay = displayTime;

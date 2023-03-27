@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1948
     height: 1123
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_MinSize: {x: 275, y: 271}
   m_MaxSize: {x: 4001, y: 8021}
   vertical: 1
-  controlID: 159
+  controlID: 44
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1948
     height: 1073
-  m_MinSize: {x: 677, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 677, y: 342}
+  m_MaxSize: {x: 12003, y: 8042}
   vertical: 0
-  controlID: 21
+  controlID: 106
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -186,7 +186,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -195,15 +195,15 @@ MonoBehaviour:
     y: 640.5
     width: 1326.5
     height: 432.5
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 18}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 18}
   - {fileID: 23}
   - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -299,10 +299,10 @@ MonoBehaviour:
     y: 0
     width: 1326.5
     height: 1073
-  m_MinSize: {x: 402, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
+  m_MinSize: {x: 402, y: 342}
+  m_MaxSize: {x: 8002, y: 8042}
   vertical: 1
-  controlID: 22
+  controlID: 107
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -327,7 +327,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 23
+  controlID: 108
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -680,36 +680,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/game1/2d adventure game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e8480000
-    m_LastClickedID: 18664
-    m_ExpandedIDs: 00000000ae480000b0480000b2480000b4480000b648000000ca9a3b
+    scrollPos: {x: 0, y: 60.5}
+    m_SelectedIDs: ec480000
+    m_LastClickedID: 18668
+    m_ExpandedIDs: 00000000ae480000b0480000b2480000b4480000b6480000de480000324f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: grasy floor 32
+      m_OriginalName: grasy floor 32
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 20302
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -751,7 +751,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000086450000ca430000e81600001c1700000445000000460000ac440000a0430000e84400005a43000066430000d4430000ae4800006a450000b2480000ca48000070470000744700006c47000024470000044d0000764700003c4b00001c4b000072450000a0450000824500009c450000d247000012f5ffff04460000c8480000aa4f00008e490000a0440000bc440000bc59000044490000
+    m_ExpandedInstanceIDs: c623000086450000ca430000e81600001c1700000445000000460000ac440000a0430000e84400005a43000066430000d4430000ae4800006a450000b2480000ca48000070470000744700006c47000024470000044d0000764700003c4b00001c4b000072450000a0450000824500009c450000d247000012f5ffff04460000c8480000aa4f00008e490000a0440000bc440000bc59000044490000a8460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -844,25 +844,25 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5ad6ffff
-      m_LastClickedID: -10662
-      m_ExpandedIDs: a8d7ffffaad8ffffbcdaffffa8ddffffb6defffffcdeffff04e0ffff94e0ffffb0e1fffffae1ffff16e3ffffbee3ffffc6e4ffffa6e7ffff56eaffffa6eaffff5aebffff8aecffffdaecffffe6edffff80eeffffcaefffff78f0ffffbcf2ffff1cf3ffff5af4ffffa6f4ffff2cf6ffff94f9ffff5afbffff0a5c0000745c0000ac5e0000
+      m_SelectedIDs: 82d0ffff
+      m_LastClickedID: -12158
+      m_ExpandedIDs: 4ec9ffff82d0fffffad6ffff8ad7ffffead7ffffccddffff54f8ffff56f8ffff44f9ffff98f9ffff5afbffff604a0000745a0000b65a0000e45a0000205b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: DialogBox
+        m_OriginalName: DialogBox
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 23250
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 7}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -906,9 +906,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 22.81897, y: 9.359842, z: -1869.716}
+    m_Target: {x: 426.59918, y: 299.27435, z: -2363.6155}
     speed: 2
-    m_Value: {x: 22.81897, y: 9.359842, z: -1869.716}
+    m_Value: {x: 426.59918, y: 299.27435, z: -2363.6155}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -959,9 +959,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 14.220094
+    m_Target: 390.69418
     speed: 2
-    m_Value: 14.220094
+    m_Value: 390.69418
   m_Ortho:
     m_Target: 1
     speed: 2

@@ -9,6 +9,7 @@ public class RubuController : MonoBehaviour
     public int maxHealth = 3;
     int currentHealth; 
     public float timeInvincible = 2.0f;
+    public string SceneName; 
     
     public int health { get { return currentHealth; }} // this is to show stinks current health
 
@@ -91,6 +92,14 @@ public class RubuController : MonoBehaviour
                 }
         }
       }
+ 
+      // exit game script
+    if (Input.GetKeyDown(KeyCode.Escape))
+    {
+        Application.Quit();
+    }
+
+
     }
 
 
@@ -137,15 +146,18 @@ public class RubuController : MonoBehaviour
         audioSource.PlayOneShot(clip);
     }
 
+    // this is for ruby to teleport to a diferent scene
     public void LevelChanger()
     {
-        SceneManager.LoadScene("File Tower"); 
+        SceneManager.LoadScene(SceneName); 
     }
 
     public void Nope()
     {
         return;
     }
+
+    
 
     
 }
