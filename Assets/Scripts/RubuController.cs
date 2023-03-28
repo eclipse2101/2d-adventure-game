@@ -154,6 +154,8 @@ public class RubuController : MonoBehaviour
 
     public void Nope()
     {
+        
+        
         return;
     }
 

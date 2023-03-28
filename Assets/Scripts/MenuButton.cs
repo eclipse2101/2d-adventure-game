@@ -18,9 +18,15 @@ public class MenuButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       if (IsActive == false);
+         
+    }
+    
+    public void ActiveLevel()
+    {
+      if (IsActive == false);
        {
         DialogBox.SetActive(true);
-       }   
+       } 
     }
+
 }
