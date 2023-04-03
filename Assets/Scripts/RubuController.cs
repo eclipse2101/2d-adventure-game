@@ -9,7 +9,8 @@ public class RubuController : MonoBehaviour
     public int maxHealth = 3;
     int currentHealth; 
     public float timeInvincible = 2.0f;
-    public string SceneName; 
+    public string SceneName;
+    public Transform RespawnPoint;   
     
     public int health { get { return currentHealth; }} // this is to show stinks current health
 
@@ -44,8 +45,8 @@ public class RubuController : MonoBehaviour
        // death script
         if (currentHealth == 0)
         {
-            Destroy(gameObject);
-            Debug.Log("You have died. Please restart the game and get good"); 
+            respawn();
+            Debug.Log("You have died. Please get good at the game its really not that hard"); 
         }  
        
        
@@ -157,6 +158,13 @@ public class RubuController : MonoBehaviour
         
         
         return;
+    }
+
+    // this void is to respawn stink with max health
+    private void respawn()
+    {
+        ChangedHealth(maxHealth); // this is t respawn ruby to max health
+        transform.position = RespawnPoint.position; // this is to set rubys positon to the respawn point;
     }
 
     

@@ -40,10 +40,10 @@
      <Compile Include="Assets/Scripts/EnemyAI.cs" />
      <Compile Include="Assets/Scripts/QuestnLoreNpc.cs" />
      <Compile Include="Assets/Scripts/CogProjectile.cs" />
+     <Compile Include="Assets/Scripts/MenuButton.cs" />
      <Compile Include="Assets/Scripts/UiHealth.cs" />
      <Compile Include="Assets/Scripts/HealthCollectable.cs" />
      <Compile Include="Assets/Scripts/DMGbox.cs" />
-     <Compile Include="Assets/Scripts/MenuButton.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/2DBeginner_Third-PartyNotice.txt" />

@@ -23,10 +23,26 @@ public class MenuButton : MonoBehaviour
     
     public void ActiveLevel()
     {
-      if (IsActive == false);
+      if (!DialogBox.active)
        {
-        DialogBox.SetActive(true);
-       } 
+         DialogBox.SetActive(true);
+       }
+
+
     }
+
+    public void CloseMenu()
+    {
+      if (DialogBox.active)
+       {
+         DialogBox.SetActive(false);
+       }
+    }
+
+     public void ExitGame()
+    {
+      Application.Quit();
+    }
+
 
 }
